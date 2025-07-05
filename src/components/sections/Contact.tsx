@@ -154,7 +154,7 @@ export const Contact: React.FC = () => {
                 {[
                   { icon: Mail, label: 'Email', value: contactInfo.email, href: `mailto:${contactInfo.email}`, color: 'blue' },
                   { icon: Phone, label: 'Phone', value: contactInfo.phone, href: `tel:${contactInfo.phone}`, color: 'green' },
-                  { icon: MapPin, label: 'Location', value: 'Tamil Nadu, India', href: '#', color: 'purple' }
+                  { icon: MapPin, label: 'Location', value: ' Coimbatore -Tamil Nadu, India', href: '#', color: 'purple' }
                 ].map((item, index) => (
                   <motion.div
                     key={item.label}
